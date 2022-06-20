@@ -9,7 +9,7 @@ const Navbar = () => {
                         Orcalo Holdings
                     </Typography>
                     <Button component={NavLink } to='/' sx={{color:'white'}}></Button>
-                    {/* <Button component={NavLink } to='/admin' sx={{color:'white'}}>Admin</Button> */}
+                    <Button component={NavLink } to='/admin' sx={{color:'white'}}>Admin</Button>
                     <Button component={NavLink } to='/login' sx={{color:'white'}}>User</Button>
                 </Toolbar>
             </AppBar>

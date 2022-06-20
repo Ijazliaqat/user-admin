@@ -17,7 +17,7 @@ const UserDashboard = () => {
                     <Typography variant='h5' component="div" sx={{flexGrow:1}} >
                         Orcalo Holdings
                     </Typography>
-                    {/* <Button onClick={logoutHandle} sx={{color:'white'}}>Log Out</Button> */}
+                    <Button onClick={logoutHandle} sx={{color:'white'}}>Log Out</Button>
                 </Toolbar>
 
             </AppBar>
